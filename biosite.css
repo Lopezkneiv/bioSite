@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1E2A38;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #2C3E50;
+    border-bottom: solid 5px #1E2A38;
+    text-align: center;
+}
+
+#navbar a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: #34495E;
+    color: #FFFFFF;
+}
+
+/* Container */
+#container {
+    margin: 2% auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+/* About Section */
+.about-me {
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.about-me h2 {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+/* Card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Box */
+.box {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #DDDDDD;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1E2A38;
+    padding: 10px 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+}
+
+footer p {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
