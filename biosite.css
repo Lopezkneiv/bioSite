@@ -5,20 +5,33 @@ body {
     padding: 0;
 }
 
+/* Banner */
+    #banner {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #banner img {
+        width: 100%;
+        height: auto;
+    }
+
 /* Header */
 header {
-    background-color: #1E2A38;
-    color: #FFFFFF;
-    padding: 20px;
     text-align: center;
-    font-weight: 600;
+    background-image: url('images/flower-banner.jpeg');
+    background-size: cover;
+    background-position: center bottom; /* Position the image at the bottom */
+    color: white;
+    padding: 10px;
 }
+
 
 /* Navbar */
 #navbar {
     overflow: hidden;
-    background-color: #2C3E50;
-    border-bottom: solid 5px #1E2A38;
+    background-color: #9A6675;
+    border-bottom: solid 5px #4B1620;
     text-align: center;
 }
 
@@ -41,7 +54,11 @@ header {
     margin: 2% auto;
     max-width: 1000px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 
 /* About Section */
 .about-me {
@@ -86,23 +103,34 @@ header {
 
 /* Box */
 .box {
-    width: 100%;
-    max-width: 300px;
+    flex-basis: calc(50% - 20px);
     border: 1px solid #DDDDDD;
     margin: 10px;
     padding: 20px;
-    display: inline-block;
-    vertical-align: top;
     box-sizing: border-box;
     background-color: #F9F9F9;
     border-radius: 5px;
 }
 
+.box h2 {
+    text-align: center;
+}
+
+/* Image Section */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Footer */
 footer {
-    background-color: #1E2A38;
+    background-color: #9A6675;
     padding: 10px 0;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     font-size: 0.9em;
     position: relative;
